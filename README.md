@@ -25,8 +25,11 @@ Spill Space addresses this non-existent problem by creating a whimsical platform
 
 ### For Software:
 Languages used: JavaScript, HTML, CSS
+
 Frameworks used: React, Node.js, Express
+
 Libraries used: Axios
+
 Tools used: Git, Visual Studio Code, MongoDB
 
 
