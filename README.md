@@ -7,7 +7,9 @@ Team Name: Decrypts
 
 ### Team Members
 -Team Lead: Anirudh K - Toc H Institute of Science and Technology
+
 -Member 2: Anshika Mariyam George - Toc H Institute of Science and Technology
+
 -Member 3: Britto Lionel Fracis - Toc H Institute of Science and Technology
 
 ### Project Description
