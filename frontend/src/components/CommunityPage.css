@@ -1,0 +1,184 @@
+/* CommunityPage.css */
+
+body {
+  background-image: url('../images/comic.png'); /* Background image */
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.community-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px; /* Max width for larger screens */
+  margin: 0 auto; /* Center the content */
+}
+
+h1, h2 {
+  color: #f8f9fa;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  margin: 10px 0; /* Add margin for spacing */
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Spacing between buttons */
+  margin-bottom: 20px; /* Spacing below the button container */
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px; /* Slightly larger padding for better touch targets */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.invitations-section {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.7); /* Darker background for contrast */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+}
+
+.invitations-list li {
+  background-color: #444; /* Adjusted background for better contrast */
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.invitations-list li:hover {
+  background-color: #555; /* Lighter on hover for interaction feedback */
+}
+
+.community-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.community-list button {
+  width: 90%;
+  margin: 5px 0;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.community-list button:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.03);
+}
+
+.community-row {
+  animation: fadeIn 0.5s ease-in;
+}
+.invitations-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 10px 0; /* Add some margin for spacing */
+}
+
+.invitations-list li {
+  background-color: #f9f9f9; /* Light background for list items */
+  border: 1px solid #ddd; /* Light border around each item */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Add padding inside each item */
+  margin-bottom: 10px; /* Space between list items */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the buttons */
+  align-items: center; /* Center items vertically */
+}
+
+/* Accept and Decline Buttons */
+.invitations-list button {
+  padding: 5px 10px; /* Add padding for button size */
+  border: none; /* Remove default border */
+  border-radius: 3px; /* Rounded corners for buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.invitations-list button:hover {
+  background-color: #007BFF; /* Change background on hover */
+  color: white; /* Change text color on hover */
+}
+
+/* Specific styles for Accept and Decline buttons */
+.invitations-list button:first-child {
+  background-color: #28a745; /* Green for accept */
+  color: white; /* White text */
+}
+
+.invitations-list button:first-child:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.invitations-list button:last-child {
+  background-color: #dc3545; /* Red for decline */
+  color: white; /* White text */
+}
+
+.invitations-list button:last-child:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .community-page, .invitations-section, .community-list {
+    width: 90%;
+  }
+
+  .button-container {
+    flex-direction: column; /* Stack buttons on smaller screens */
+    gap: 15px; /* Spacing between stacked buttons */
+  }
+
+  .button-container button {
+    width: 100%; /* Full width buttons */
+  }
+
+  .community-list button {
+    padding: 12px; /* Adjust padding for smaller screens */
+  }
+}

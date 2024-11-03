@@ -1,0 +1,85 @@
+/* Main container styles */
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../images/Gossip.jpg"); /* Replace with preferred background image URL */
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Arial", sans-serif;
+}
+
+.home-header {
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+  padding: 40px 60px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Text styles with animation */
+.home-header p {
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+  animation: slideDown 1.5s ease-in-out;
+}
+
+.home-header h1 {
+  font-size: 3em;
+  font-weight: 700;
+  color: #ffcc00;
+  text-transform: uppercase;
+  margin: 10px 0;
+  letter-spacing: 5px;
+  animation: scaleUp 2s ease-in-out;
+}
+
+/* Button styles */
+.login-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 15px rgba(255, 204, 0, 0.3);
+}
+
+/* Hover and active effects for button */
+.login-button:hover {
+  background-color: #ffd633;
+  transform: scale(1.05);
+  box-shadow: 0px 7px 20px rgba(255, 204, 0, 0.5);
+}
+
+.login-button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 4px 12px rgba(255, 204, 0, 0.2);
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  0% { transform: translateY(-20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes scaleUp {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}

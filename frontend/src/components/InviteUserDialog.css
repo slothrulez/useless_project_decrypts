@@ -1,0 +1,80 @@
+/* Styles for the modal overlay */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: none; /* Hidden by default */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 1000; /* Above other content */
+  }
+  
+  /* Show modal when isOpen is true */
+  .modal.is-open {
+    display: flex; /* Use flexbox to center */
+  }
+  
+  /* Styles for the modal content */
+  .modal-content {
+    background-color: #fff; /* White background for the dialog */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the modal */
+    width: 400px; /* Width of the modal */
+    max-width: 90%; /* Responsive */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  }
+  
+  /* Title styles */
+  .modal-content h2 {
+    margin: 0 0 15px; /* Margin for title */
+  }
+  
+  /* Input field styles */
+  .modal-content input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below the input */
+  }
+  
+  /* List styles */
+  .modal-content ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* List item styles */
+  .modal-content li {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between text and button */
+    align-items: center; /* Center vertically */
+    padding: 10px; /* Padding for list items */
+    border-bottom: 1px solid #eee; /* Light border between items */
+  }
+  
+  /* Button styles */
+  .modal-content button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  
+  /* Button hover effect */
+  .modal-content button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Close button styles */
+  .modal-content .close-button {
+    background-color: #dc3545; /* Red color for close button */
+  }
+  

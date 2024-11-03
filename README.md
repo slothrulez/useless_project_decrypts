@@ -1,101 +1,51 @@
-<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
+Spill-Space
+Basic Details
+Team Name: Decrypts
 
-# [Project Name] 🎯
+Team Members
+Team Lead: Anirudh K - Toc H Institute of Science and Technology
+Member 2: [Member Name] - [Member College]
+Member 3: [Member Name] - [Member College]
+Project Description
+Spill Space is a whimsical web application designed for those who believe that not everything in life needs to be productive or serious. It’s a playful platform where individuals can come together to chat about the most random, pointless topics without worrying about facts or relevance.
 
+Imagine a space where you’re free to share ridiculous stories, gossip about the absurd, and rank the best nonsense—all just for the sheer fun of it. In a world filled with intense conversations and constant productivity, Spill Space serves as a lighthearted escape that allows users to unwind, connect over silliness, and embrace the joy of completely useless chatter.
 
-## Basic Details
-### Team Name: [Name]
+The Problem (That Doesn’t Exist)
+In today’s fast-paced world, there’s a noticeable lack of frivolous gossip and trivial conversations! People are overwhelmed by serious discussions and the constant push for productivity, leaving little room for lighthearted banter. Many crave a space where they can indulge in the delightful absurdity of life without the pressure to be relevant or informative.
 
+Traditional social media often prioritizes serious content, overlooking the value of playful dialogue. As a result, people miss the chance to relax and connect over silly topics, making the art of meaningless conversation feel undervalued. Spill Space aims to fill this gap by providing a platform for baseless gossip and trivial chatter, allowing users to embrace the joy of completely pointless discussions and enjoy the camaraderie that comes from sharing the absurd.
 
-### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+The Solution (That Nobody Asked For)
+Spill Space addresses this non-existent problem by creating a whimsical platform where users can freely indulge in gossip and chatter without any concern for facts or seriousness. This space encourages playful interactions with features like the gossiper finder, which highlights the most prolific gossipers, and a voting system that allows users to rank the absurdity of different topics. With these fun tools, Spill Space transforms the act of sharing nonsense into an engaging community experience, celebrating the joy of ridiculous conversations and connecting users who appreciate the lighter side of life.
 
-### Project Description
-[2-3 lines about what your project does]
-
-### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
-
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
-
-## Technical Details
-### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+Languages used: JavaScript, HTML, CSS
+Frameworks used: React, Node.js, Express
+Libraries used: Axios
+Tools used: Git, Visual Studio Code, MongoDB
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
-### Implementation
-For Software:
-# Installation
-[commands]
+Installation and Running Instructions
+To set up and run Spill Space, follow these steps. First, clone the repository by running git clone 
+. Next, navigate to the project directory with cd Spill_Space. Then, install the necessary dependencies using npm install.
 
-# Run
-[commands]
+To run the application, start with the backend server. Open a terminal and navigate to the server directory by using cd server. Start the server with the command node server.js. In a new terminal, navigate to the client directory with cd client, and then start the frontend application by executing npm start.
 
-### Project Documentation
+Following these steps will get Spill Space up and running on your local machine!
+
+
+Project Documentation:
 For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+Screenshots:
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/27d9df45-64fc-4639-96cf-703f4d04e1d9)
+![image](https://github.com/user-attachments/assets/ebfa49a1-d9e5-4de3-bc9e-422a7ef2f7ab)
+![image](https://github.com/user-attachments/assets/df46016b-d0c8-4e45-884b-d8ef66adfa99)
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
----
-Made with ❤️ at TinkerHub Useless Projects 
-
-![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProject--24-24?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
-
+Video: 
+https://github.com/user-attachments/assets/a7295bbd-5b89-4d44-aa63-511da8b879da
 
 

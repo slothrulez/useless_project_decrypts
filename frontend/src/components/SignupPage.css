@@ -1,0 +1,74 @@
+/* General page styling */
+.signup-page {
+    width: 320px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .signup-page h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Input styling */
+  .signup-page form input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .signup-page form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Button styling */
+  .signup-page button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Adjustments for mobile */
+  @media (max-width: 480px) {
+    .signup-page {
+      width: 90%;
+      margin: 20px auto;
+      padding: 20px;
+    }
+  
+    .signup-page h2 {
+      font-size: 1.6rem;
+    }
+  
+    .signup-page form input, .signup-page button {
+      font-size: 0.9rem;
+    }
+  }
+  
