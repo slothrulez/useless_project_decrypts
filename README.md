@@ -6,9 +6,9 @@
 Team Name: Decrypts
 
 ### Team Members
-Team Lead: Anirudh K - Toc H Institute of Science and Technology
-Member 2: [Member Name] - [Member College]
-Member 3: [Member Name] - [Member College]
+-Team Lead: Anirudh K - Toc H Institute of Science and Technology
+-Member 2: Anshika Mariyam George - Toc H Institute of Science and Technology
+-Member 3: Britto Lionel Fracis - Toc H Institute of Science and Technology
 
 ### Project Description
 Spill Space is a whimsical web application designed for those who believe that not everything in life needs to be productive or serious. It’s a playful platform where individuals can come together to chat about the most random, pointless topics without worrying about facts or relevance.Imagine a space where you’re free to share ridiculous stories, gossip about the absurd, and rank the best nonsense—all just for the sheer fun of it. In a world filled with intense conversations and constant productivity, Spill Space serves as a lighthearted escape that allows users to unwind, connect over silliness, and embrace the joy of completely useless chatter.
