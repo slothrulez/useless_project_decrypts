@@ -40,3 +40,5 @@ To set up and run Spill Space, follow these steps. First, clone the repository b
 To run the application, start with the backend server. Open a terminal and navigate to the server directory by using cd server. Start the server with the command node server.js. In a new terminal, navigate to the client directory with cd client, and then start the frontend application by executing npm start.
 
 Following these steps will get Spill Space up and running on your local machine!!
+
+
